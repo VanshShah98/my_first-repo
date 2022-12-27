@@ -1,7 +1,7 @@
 body{
     background-image: url("img.png");
     background-size: 150%;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navbar{
     display: flex;
@@ -23,7 +23,7 @@ body{
     font-weight: 600;
 }
 .first{
-padding: 100px 20px;
+padding: 90px 15px;
 }
 .B{
 font-size: 100px;
@@ -31,7 +31,7 @@ font-weight: bold;
 line-height: 0%;
 }
 .A{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 0%;
  
 }
