@@ -1,3 +1,8 @@
+body{
+    background-image: url("img.png");
+    background-size: 150%;
+    font-family: sans-serif;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -17,15 +22,38 @@
 .menu > li:hover{
     font-weight: 600;
 }
-*{
-    box-sizing: border-box;
+.first{
+padding: 100px 20px;
+}
+.B{
+font-size: 100px;
+font-weight: bold;
+line-height: 0%;
 }
 .A{
-   
-    display: flex;
-    height: 300px;
-    font-size: 0px;
+    font-size: 70px;
+    line-height: 0%;
+ 
 }
-.I{
-    margin-right: 50px;
+.C{
+    font-size: 20px;
+    line-height: 0%;
+   
+}
+.second{
+    display: flex;
+    padding-top: 20px;
+}
+.D{
+    padding: 10px 20px;
+    line-height: 10px;
+    background-color: black;
+    color: white;
+}
+.E{
+    padding: 10px 20px;
+    line-height: 10px;
+}
+.E:hover{
+text-decoration: underline;
 }
