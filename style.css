@@ -1,0 +1,59 @@
+body{
+    background-image: url("img.png");
+    background-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.logo{
+    width: 48px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    list-style: none;
+    padding: 10px;
+}
+.menu > li:hover{
+    font-weight: 600;
+}
+.first{
+padding: 90px 15px;
+}
+.B{
+font-size: 100px;
+font-weight: bold;
+line-height: 0%;
+}
+.A{
+    font-size: 60px;
+    line-height: 0%;
+ 
+}
+.C{
+    font-size: 20px;
+    line-height: 0%;
+   
+}
+.second{
+    display: flex;
+    padding-top: 20px;
+}
+.D{
+    padding: 10px 20px;
+    line-height: 10px;
+    background-color: black;
+    color: white;
+}
+.E{
+    padding: 10px 20px;
+    line-height: 10px;
+}
+.E:hover{
+text-decoration: underline;
+}
