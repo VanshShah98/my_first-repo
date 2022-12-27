@@ -17,3 +17,15 @@
 .menu > li:hover{
     font-weight: 600;
 }
+*{
+    box-sizing: border-box;
+}
+.A{
+   
+    display: flex;
+    height: 300px;
+    font-size: 0px;
+}
+.I{
+    margin-right: 50px;
+}
